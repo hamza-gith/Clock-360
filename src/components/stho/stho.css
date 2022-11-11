@@ -1,0 +1,106 @@
+.MainStho {
+  padding: 50px 0px;
+}
+/* .subdivlogo{
+    background-image: url("../../../public/reallogo.png");
+    background-repeat: no-repeat;
+   
+} */
+.reallogo {
+  width: 65rem;
+  height: 32rem;
+  position: absolute;
+  z-index: -1;
+  margin-top: -15rem;
+}
+
+.colfive {
+  margin-top: -18rem;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.colsix {
+  margin-top: -4rem;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.icon22 {
+  color: #ffe600 !important;
+  margin-left: 3rem !important;
+  margin-top: 1.3rem !important;
+  position: absolute;
+}
+.avax {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #ffe600;
+  margin-top: 0.3rem;
+}
+.hrthree {
+  width: 24rem;
+  color: grey;
+}
+.marketone {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: #ffe600;
+}
+.marketthree {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #f2f2f2;
+}
+.colordivthree {
+  width: 25rem;
+  background-color: rgb(13, 11, 0);
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  border-radius: 0.5rem;
+}
+@media (max-width: 768px) {
+  .colordivthree {
+    width: 19rem;
+    background-color: rgb(13, 11, 0);
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-radius: 0.5rem;
+  }
+  .hrthree {
+    width: 18rem;
+    color: grey;
+  }
+  .reallogo {
+    width: 50rem;
+    height: 32rem;
+    position: absolute;
+    z-index: -1;
+    margin-top: -15rem;
+  }
+}
+@media (max-width: 500px) {
+  .reallogo {
+    display: none;
+  }
+}
+.fadiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.faword {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: #ffe600;
+  margin-left: 2rem;
+}

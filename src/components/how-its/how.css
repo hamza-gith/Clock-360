@@ -1,0 +1,91 @@
+.Mainhow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px;
+  flex-direction: column;
+}
+
+.how121 {
+  margin-top: 1.5rem;
+}
+
+.how11 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 33px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.how111 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.how22 {
+  display: flex;
+}
+
+.how221 {
+  color: #ffe600;
+}
+
+.how222 {
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.how223 {
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.how224 {
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  margin-left: 0.9rem;
+}
+
+@media (max-width: 500px) {
+  .how11 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  .how224 {
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    font-size: 0.8rem;
+    margin-left: 0.9rem;
+  }
+  .how22 {
+    display: flex;
+    margin-left: 0.5rem;
+  }
+
+  .how224 {
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    margin-left: 1.5rem;
+  }
+  .meshimg {
+    display: none !important;
+  }
+}
+
+.meshimg {
+  height: 105vh;
+  position: absolute;
+  z-index: -1;
+  width: 80%;
+}

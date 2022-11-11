@@ -1,0 +1,72 @@
+.faq {
+  color: white !important;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.navbar555 {
+  background-color: black;
+}
+
+.navdiv11 {
+  width: 30rem;
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.faq11 {
+  font-style: normal;
+  font-weight: bold;
+  border: solid 2px #ffe600 !important;
+  border-radius: 1rem !important;
+  color: white !important;
+  padding: 0.5rem !important;
+  text-align: center;
+}
+
+.home11 {
+  width: 12rem;
+}
+.navbar-light .navbar-toggler {
+  color: black !important;
+  background-color: black;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0X0athDX4RqnssthNx4HTfip0PRl2PqXXg&usqp=CAU) !important;
+}
+
+@media (max-width: 500px) {
+  .navdiv11 {
+    width: 16rem;
+    display: flex !important;
+    justify-content: space-around !important;
+    margin-right: 1rem !important;
+  }
+
+  .faq11 {
+    border: solid 2px #ffe600 !important;
+    border-radius: 1rem !important;
+    color: white !important;
+
+    font-style: normal;
+    font-weight: bold;
+    padding: 0.3rem !important;
+    font-size: 0.8rem;
+  }
+
+  .home11 {
+    width: 5rem;
+  }
+
+  .faq {
+    color: white !important;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,148 @@
+.Maincommon {
+  /* display: flex;
+     justify-content: center;
+     align-items: center; */
+  padding: 50px 0px;
+}
+
+.com {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #ffe600;
+}
+
+.total {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: rgba(255, 230, 0, 0.5);
+  margin-top: 0.5rem;
+}
+
+.number {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.hr {
+  width: 22.8rem;
+  color: grey;
+}
+
+.infoicon {
+  margin-left: 3rem !important;
+  margin-top: 1.5rem !important;
+  color: #ffe600 !important;
+  position: absolute;
+}
+
+.colone {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.coltwo {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: -1rem;
+}
+
+.divcolor {
+  width: 25rem !important;
+  background-color: rgb(13, 11, 0);
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .divcolor {
+    width: 19rem !important;
+    background-color: rgb(13, 11, 0);
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-radius: 0.5rem;
+  }
+
+  .laylogo {
+    width: 8rem !important;
+  }
+
+  .layer1 {
+    width: 15rem !important;
+  }
+
+  .layer2 {
+    width: 15rem !important;
+  }
+
+  .hr {
+    width: 17rem;
+    color: grey;
+  }
+
+  .coltwo {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 0.2rem;
+  }
+}
+
+.laydiv {
+  display: flex;
+}
+
+.th0 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: #cccccc;
+  margin-top: 0.4rem;
+  margin-left: 0.5rem;
+}
+
+.prize {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: white;
+  margin-left: 0.5rem !important;
+}
+
+.percent {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #ffe600;
+  margin-left: 0.5rem;
+}
+
+.laylogo {
+  width: 10rem;
+}
+
+.prize1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: white;
+  margin-left: 2rem !important;
+}
+
+.layer1 {
+  width: 23rem;
+}
+
+.layer2 {
+  width: 23rem;
+}

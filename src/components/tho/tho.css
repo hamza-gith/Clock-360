@@ -1,0 +1,162 @@
+.maintho {
+  padding: 50px 0px;
+}
+
+.colthree {
+  margin-top: -12rem;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.colfour {
+  margin-top: -5rem;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.thodiv {
+  display: flex;
+}
+
+.icon {
+  color: #ffe600 !important;
+  margin-left: 3rem !important;
+  margin-top: 1.4rem;
+  position: absolute;
+}
+
+.thoword {
+  color: #ffe600 !important;
+  margin-top: 0.4rem;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.marketword {
+  font-style: normal;
+  font-weight: bold;
+  color: rgba(255, 230, 0, 0.5);
+  font-size: 0.8rem;
+}
+
+.dollar {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #f2f2f2;
+  margin-top: -0.8rem;
+}
+
+.noword {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #f03738;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+.line {
+  width: 24rem;
+  color: grey;
+  margin-top: -0.2rem;
+}
+
+.backed {
+  font-style: normal;
+  font-weight: bold;
+  color: rgba(255, 230, 0, 0.5);
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+.second {
+  font-style: normal;
+  font-weight: bold;
+  color: rgba(255, 230, 0, 0.5);
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  margin-left: 0.8rem;
+}
+
+.backed1 {
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+  margin-top: 0.4rem;
+}
+
+.laylogo1 {
+  width: 10rem;
+}
+
+.laydiv1 {
+  display: flex;
+}
+
+.th033 {
+  font-style: normal;
+  font-weight: bold;
+  color: rgba(255, 230, 0, 0.5);
+  font-size: 0.8rem;
+  margin-top: 1.4rem;
+  margin-left: 2rem;
+}
+.percent1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #ffe600;
+  margin-left: 0.5rem;
+}
+.prize2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: white;
+}
+.divcolor2 {
+  width: 25rem;
+  background-color: rgb(13, 11, 0);
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  border-radius: 0.5rem;
+}
+.noword1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: #3cc13b;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+@media (max-width: 768px) {
+  .divcolor2 {
+    width: 19rem;
+    background-color: rgb(13, 11, 0);
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-radius: 0.5rem;
+  }
+  .line {
+    width: 18rem;
+    color: grey;
+    margin-top: -0.2rem;
+  }
+}
+@media (max-width: 500px) {
+  .colfour {
+    margin-top: 2rem;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}

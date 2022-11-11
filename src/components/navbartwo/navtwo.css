@@ -1,0 +1,68 @@
+.faqs {
+  color: white !important;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration-line: none !important;
+  text-decoration: underline !important;
+  text-decoration-color: #ffe600 !important;
+  text-align: center;
+  /* border-bottom: solid 3px #FFE600 !important; */
+}
+
+.faqs:hover {
+  text-decoration: underline !important;
+  border-bottom: solid 3px #ffe600 !important;
+}
+
+.navbardiv {
+  width: 30rem !important;
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+
+.logo1 {
+  width: 12rem;
+}
+
+.btnavone {
+  width: 10rem;
+  height: 45px;
+  background: #2af0c0;
+  box-shadow: 0px 0px 20px rgba(42, 240, 192, 0.8);
+  border-radius: 10px;
+  text-align: center;
+  color: #201f56 !important;
+
+  font-style: normal;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-toggler {
+  color: black !important;
+  background-color: black;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0X0athDX4RqnssthNx4HTfip0PRl2PqXXg&usqp=CAU) !important;
+}
+
+/* @media(max-width: 500px){
+    .navdiv11{
+        width: 16rem;
+        display: flex !important;
+        justify-content: space-around !important;
+        margin-right:  1rem !important;
+    }
+    .home11{
+        width: 5rem
+    } 
+    .faq{
+        color:white !important;
+         : "Space Grotesk", Sans-serif;;
+        font-style: normal;
+        font-weight: bold;
+        font-size: .7rem;
+    }
+}  */

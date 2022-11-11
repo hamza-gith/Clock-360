@@ -1,0 +1,37 @@
+.mainTitano {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0px;
+}
+
+.subtitano {
+  background-image: url("../../../public/HOURES.png");
+  background-repeat: no-repeat;
+}
+
+.titano11 {
+  margin-top: -1rem !important;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+@media (max-width: 500px) {
+  .titano11 {
+    margin-top: -1rem !important;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+}

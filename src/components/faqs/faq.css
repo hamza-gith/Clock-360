@@ -1,0 +1,72 @@
+.container-fluid {
+  width: 70% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly !important;
+  color: white;
+}
+.pg {
+  display: flex;
+
+  align-items: center;
+}
+.pg1 {
+  font-style: normal;
+  font-weight: bold;
+  text-align: center !important;
+  font-size: small;
+  margin-top: 0.7rem;
+  margin-left: 0.5rem;
+}
+.titleHolder {
+  font-style: normal;
+  font-weight: bold;
+  color: white !important;
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+  border: 1px solid black !important;
+  background-color: black;
+  color: white;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 12px 16px;
+  color: white !important;
+  line-height: 1.5715;
+  cursor: pointer;
+  transition: all 0.3s, visibility 0s;
+}
+.ant-collapse-content {
+  border-color: rgba(255, 230, 0, 0.5) !important;
+  border-bottom-color: rgba(255, 230, 0, 0.5) !important;
+}
+.ant-collapse {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: "tnum", "tnum";
+
+  border: 2px solid rgba(255, 230, 0, 0.5) !important;
+  border-bottom: 0;
+  border-radius: 2px;
+}
+
+.anticon svg {
+  position: absolute;
+  right: 0;
+  margin-top: -1rem;
+  color: yellow;
+  font-weight: bold;
+  font-size: larger;
+  margin-right: 1rem;
+}

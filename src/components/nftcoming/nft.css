@@ -1,0 +1,296 @@
+.mainnft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+  margin-top: -8rem;
+}
+
+.subnft {
+  background-image: url("../../../public/brick.png") !important;
+  background-repeat: no-repeat !important;
+  width: 60rem;
+  height: 35rem;
+}
+
+.nft11 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.nft22 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1;
+  text-transform: capitalize;
+  color: #ffe600;
+  text-shadow: 0px 0px 20px #ffe600;
+}
+
+.nft221 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 2;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.nft223 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 1;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.li {
+  color: #ffe600 !important;
+}
+
+.nft222 {
+  color: white;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+/* .nft224 {
+ 
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+} */
+
+.nftlogo1 {
+  width: 20rem;
+}
+
+.nftlogo2 {
+  width: 18rem;
+}
+
+.nftlogo3 {
+  width: 16rem;
+}
+
+.nftlogo11 {
+  position: absolute;
+  margin-left: -5rem !important;
+}
+
+.nftlogo12 {
+  position: absolute;
+  margin-top: 8rem;
+  margin-left: -3rem !important;
+}
+
+.nftlogo13 {
+  position: absolute;
+  margin-top: 10rem;
+  margin-right: -2rem !important;
+}
+
+.nft1111 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+}
+
+.nft11112 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 17rem;
+}
+
+@media (max-width: 500px) {
+  .rowmoblie {
+    display: flex !important;
+    /* flex-direction: row-reverse !important; */
+    flex-direction: column-reverse !important;
+  }
+  .nft1111 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 0rem;
+  }
+  .nftlogo1 {
+    width: 13rem;
+  }
+
+  .nftlogo2 {
+    width: 13rem;
+  }
+
+  .nftlogo3 {
+    width: 12rem;
+  }
+
+  .nftlogo11 {
+    position: absolute;
+    margin-left: -2rem !important;
+  }
+
+  .nftlogo12 {
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: -1rem !important;
+  }
+
+  .nftlogo13 {
+    position: absolute;
+    margin-top: 11rem;
+    margin-right: -3rem !important;
+  }
+
+  .nft11 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  .nft22 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 0.5;
+    text-transform: capitalize;
+    color: #ffe600;
+    text-shadow: 0px 0px 20px #ffe600;
+  }
+
+  .nft221 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 2 !important;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  .nft11112 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+  }
+
+  .nft222 {
+    color: white;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  .subnft {
+    background-image: url("../../../public/brick.png") !important;
+    background-repeat: no-repeat !important;
+    width: 22rem !important;
+    height: 44rem !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .rowmoblie {
+    display: flex !important;
+    /* flex-direction: row-reverse !important; */
+    flex-direction: column-reverse !important;
+  }
+  .nft1111 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 0rem;
+  }
+  .nftlogo1 {
+    width: 12rem;
+  }
+
+  .nftlogo2 {
+    width: 12rem;
+  }
+
+  .nftlogo3 {
+    width: 10rem;
+  }
+
+  .nftlogo11 {
+    position: absolute;
+    margin-left: -2rem !important;
+  }
+
+  .nftlogo12 {
+    position: absolute;
+    margin-top: 6rem;
+    margin-left: -1rem !important;
+  }
+
+  .nftlogo13 {
+    position: absolute;
+    margin-top: 11rem;
+    margin-right: -2rem !important;
+  }
+
+  .nft11 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  .nft22 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 0.5;
+    text-transform: capitalize;
+    color: #ffe600;
+    text-shadow: 0px 0px 20px #ffe600;
+  }
+
+  .nft221 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  .nft11112 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+  }
+
+  .nft222 {
+    color: white;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  .subnft {
+    background-image: url("../../../public/brick.png") !important;
+    background-repeat: no-repeat !important;
+    width: 20rem !important;
+    height: 44rem !important;
+  }
+}
